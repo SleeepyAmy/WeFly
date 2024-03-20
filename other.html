@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Hotel</title>
+    <!-- linking CSS file -->
+    <link rel="stylesheet" href="style/other.css">
+    <!-- importing a web icon -->
+    <link rel="icon" href="img/iconn.png" type="image/x-icon">
+<!--  linking the logo class -->
+    <div class="topnav">
+        <img src="img/logo.png" alt="logo">
+    </div>
+
+</head>
+<body>
+  <!-- a class for rating the hotel using select tag -->
+      <div class="rating">
+      <label for="#">Hotel Rating</label>
+      <select id="hotel-rating" name= "hotel-rating" required>
+          <option value=""> -- </option>
+          <option value="#">5*</option>
+          <option value="#">4*</option>
+          <option value="#">3*</option>
+      </select>
+    </div> 
+    <!--  a class for prefernece  -->
+    <label class="prefernece"> I want the hotel to be  Near the main street
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="prefernece">  I want the hotel to be Near a bus station
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="prefernece"> I want the hotel to be Near the sea
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="prefernece"> I have pets
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      <label class="prefernece"> I want the hotel room to have a Balcony
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      <label class="prefernece"> I want the hotel to be privet pool
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      <!-- a class for a message feedback from the user  -->
+      <div class="finish">
+      <label for="message">Anything Else?</label>
+      <h3> We will send you the hotels we picked for you via email in 24 hours!</h3>
+      <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+    </div>
+    <!-- linking the payment page -->
+    <button type="submit"><a href="payment.html">GO TO PAYMENT!</a></button>
+    <!-- footer -->
+    <Footer>
+        <ul>
+            <h3> More </h3>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About us </a></li>
+            <li><a href="conact.html">Contact us</a></li>
+           
+        </ul>
+        <ul>
+            <h3> Follow us </h3>
+            <li><a href="https://www.facebook.com/">facebook</a></li>
+            <li><a href="https://www.instagram.com/">instagram</a></li>
+            <li><a href="https://twitter.com/">X</a></li>
+        </ul>
+        <P>&COPY; WEAM MAHJOUB 2022230514</P>
+    </footer>
+</body>
+</html>
+  

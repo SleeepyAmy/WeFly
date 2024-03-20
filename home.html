@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>WeFly</title>
+    <!-- linking a CSS file -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- importimg a web icon -->
+    <link rel="icon" href="img/iconn.png" type="image/x-icon">
+    <!--  a topnav class for selecting a language , login , register and logo  -->
+    <div class="topnav">
+        <h3> Select your langauge:
+            <select id="langauge" name="langauge">
+                <option value="langauge">--</option>
+                <option value="English">English</option>
+                <option value="Spanish">Spanish</option>
+                <option value="Russian">Russian</option>
+                <option value="Arabic">Arabic</option>
+            </select>
+        </h3>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <input type="text" placeholder="Search">
+        <img src="img/logo.png" alt="logo">
+    </div>
+</head>
+
+<body>
+    <!-- a header for 3 linked pages -->
+    <header>
+        <H1> Discover Your Next Destination</H1>
+        <h3>
+            <nav>
+                <ul>
+                    <li><a href="flight.html">Flight</a></li>
+                    <li><a href="gallary.html"> Gallary</a></li>
+                    <li><a href="location.html"> Location</a></li>
+                    <li><a href="blog.html"> Blog</a></li>
+                </ul>
+            </nav>
+        </h3>
+    </header>
+    <!--  class for the pictures -->
+    <div class="wrapper">
+        <h3> Traveling is like embarking on a whimsical adventure where each step unveils a new chapter of enchantment.
+            It's about the thrill of discovering hidden gems nestled in bustling streets, or stumbling upon breathtaking
+            vistas that seem plucked from a painting. </h3>
+        <div class="four-pics">
+            <img src="img/holiday2.jpg" alt="image">
+        </div>
+        <div class="four-pics">
+            <img src="img/holiday1.jpg" alt="image">
+
+        </div>
+        <div class="four-pics">
+            <img src="img/holiday3.jpg" alt="image">
+        </div>
+    </div>
+    <!--  class for the video -->
+    <div class="video">
+        <h1> Again Welcome! </h1>
+        <iframe src="https://www.youtube.com/embed/l1zPoy1noQM?si=9VPRyz2TNWSk5A70" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <p> The rhythm of exploration beats in harmony with the heart, as each destination whispers tales of culture,
+            history, and wonder. From the quaint cobblestone alleys of ancient towns to the sun-kissed shores of distant
+            beaches, every corner holds a promise of serendipitous encounters and unforgettable moments. </p>
+    </div>
+    <!-- class for the API weather -->
+    <div id="weather-container">
+        <h2> Check the weather </h2>
+        <input type="text" id="city" placeholder="Enter city">
+        <button onclick="getWeather()">Search</button>
+
+        <img id="weather-icon" alt="Weather Icon">
+
+        <div id="temp-div"></div>
+
+        <div id="weather-info"></div>
+
+        <div id="hourly-forecast"></div>
+    </div>
+    <!-- linking a Js file -->
+    <script src="java/weather.js"></script>
+    <!-- footer -->
+    <footer>
+        <ul>
+            <h2> More </h2>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About us </a></li>
+            <li><a href="conact.html">Contact us</a></li>
+
+        </ul>
+        <ul>
+            <h2> Follow us </h2>
+            <li><a href="https://www.facebook.com/">facebook</a></li>
+            <li><a href="https://www.instagram.com/">instagram</a></li>
+            <li><a href="https://twitter.com/">X</a></li>
+        </ul>
+        <P>&COPY; WEAM MAHJOUB 2022230514</P>
+    </footer>
+</body>
+
+</html>

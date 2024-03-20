@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>WeFly</title>
+    <!-- linking CSS file -->
+    <link rel="stylesheet" href="style/flight.css">
+    <!-- imprting a web icon -->
+    <link rel="icon" href="img/iconn.png" type="image/x-icon">
+    <!-- adding a logo class -->
+    <div class="topnav">
+        <img src="img/logo.png" alt="logo">
+    </div>
+</head>
+
+<body>
+    <header>
+        <h2>Book Now!</h2>
+        <h3>Please Make sure that all the data are valid, Thank you.
+        </h3>
+    </header>
+    <!-- form tag for booking form -->
+    <div class="booking">
+        <form>
+            <div class="row">
+                <div class="one">
+                    <label for="fname">Full Name</label>
+                </div>
+                <div class="two">
+                    <input type="text" id="fname" name="fullname" placeholder="Your name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="one">
+                    <label for="email">E-mail</label>
+                </div>
+                <div class="two">
+                    <input type="text" id="email" name="E-mail" placeholder="Your E-mail">
+                </div>
+            </div>
+            <div class="row">
+                <div class="one">
+                    <label for="currentplace"> Your current Stay</label>
+                </div>
+                <div class="two">
+                    <input type="text" id="currentplace" name="Your current Stay" placeholder=" Please enter here">
+                </div>
+            </div>
+            <div class="row">
+                <div class="one">
+                    <label for="country">Your Destination</label>
+                </div>
+                <div class="two">
+                    <!-- select tag -->
+                    <select id="country" name="country">
+                        <option value="none">Select Country</option>
+                        <option value="australia">Serbia</option>
+                        <option value="russia">Russia</option>
+                        <option value="libya">Libya</option>
+                        <option value="usa">USA</option>
+                        <option value="japan">Japan</option>
+                        <option value="india">India</option>
+                        <option value="china">china</option>
+                        <option value="UK">UK</option>
+                        <option value="Australia">Australia</option>
+                        <option value="canada">canada</option>
+
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="one">
+                    <label for="number">Number of passengers</label>
+                </div>
+                <div class="two">
+                    <input type="text" id="number" name="Number of passengers" placeholder="Please enter here">
+                </div>
+                <!-- class for date -->
+                <div class="time">
+                    <label for="start">Departure Date:</label>
+                    <input type="date" id="start" name="trip-start" />
+                    <label for="start">Return Date:</label>
+                    <input type="date" id="start" name="trip-start" />
+                </div>
+                <!-- button tag for booking the hotel linked with the page -->
+                <div class="pay">
+                    <button type="#" class="Book your hotel"><a href="hotel.html">Book your hotel</a></button>
+                </div>
+        </form>
+
+        <!-- footer -->
+        <Footer>
+            <ul>
+                <h3> More </h3>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About us </a></li>
+                <li><a href="conact.html">Contact us</a></li>
+
+            </ul>
+            <ul>
+                <h3> Follow us </h3>
+                <li><a href="https://www.facebook.com/">facebook</a></li>
+                <li><a href="https://www.instagram.com/">instagram</a></li>
+                <li><a href="https://twitter.com/">X</a></li>
+            </ul>
+            <P>&COPY; WEAM MAHJOUB 2022230514</P>
+        </footer>
+    </div>
+</body>
+
+</html>
