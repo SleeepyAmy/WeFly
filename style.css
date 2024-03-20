@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: white;
+   
+}
+
+/* header settings */
+header {
+    width: 100%;
+    height: 100px;
+}
+
+header h1 {
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+}
+
+header h3 nav {
+    margin: 20px 0 40px 0;
+    text-align: center;
+    font-size: large;
+}
+
+header h3 nav ul {
+    padding: 0%;
+}
+
+header h3 nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 13px;
+}
+
+header h3 nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+
+}
+
+header h3 nav ul li a:hover {
+    color: #ffffff;
+    background-color:#500d36;
+    padding: 8px;
+}
+
+.topnav {
+    background-color: #731d52;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    
+  }
+  .topnav h3 {
+    float:left;
+    color: #1b0119;
+    text-align: center;
+   
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+  }
+      .topnav img {
+          width: 15% ;
+        float: right;
+         
+      }
+        /* Style the links inside the navigation bar */
+        .topnav a {
+          float:left;
+          color: #1b0119;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+          font-weight: 600;
+        }
+.topnav a:hover {
+    background-color: #500d36;
+    color: white ;
+}
+
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    margin: 20px 200px 20px 0;
+    text-align: center;
+    padding: 4px;
+    border: #140112;
+    font-size: 18px;
+    width: 25%;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+
+    .topnav a,
+    .topnav input[type=text] {
+        float: right;
+        display: contents;
+        text-align: right;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #160012;
+    }
+}
+
+.topnav input[type=text] {
+    border: 1px solid #140112;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 30px 0;
+    background: #81245d;
+    text-align: center;
+}
+
+.wrapper h3 {
+    color: #000000;
+    font-weight: 600px;
+    padding: 20px 21px 0px 21px;
+
+}
+
+.wrapper .four-pics {
+    margin: 50px;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+.wrapper .four-pics img {
+    width: 100%;
+    box-shadow: 5px 8px 10px #1f0227;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.wrapper .four-pics img:hover {
+    opacity: .8;
+    transform: scale(1.05);
+}
+
+.video {
+    width: 100%;
+
+    background-color:  #81245d;
+   
+    text-align: center;
+}
+
+.video h1 {
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.video p {
+    color: #000000;
+    font-weight: 500;
+    padding: 10px 0;
+
+}
+
+.video iframe {
+    width: 800px;
+    height: 400px;
+}
+
+#weather-container {
+    background:#3b0525;
+     width:70% ;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin-left: 200px;
+}
+
+h2, label, p {
+    color: #fff;
+    margin: 8px 0;
+}
+
+input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+button {
+    background:#500d36;;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 100px;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #511b3c;;
+}
+
+#temp-div p {
+    font-size: 60px;
+    margin-top: -30px;
+}
+
+#weather-info {
+    font-size: 20px;
+}
+
+#weather-icon {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 10px; 
+    margin-bottom: 0;
+    display: none;
+}
+
+#hourly-forecast {
+    margin-top: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hourly-item {
+    flex: 0 0 auto;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+}
+
+.hourly-item img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+#hourly-heading {
+    color: #fff;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 40px;
+
+    background-color:  #500d36;
+    text-align: left;
+}
+
+footer ul {
+    display: inline-block;
+    list-style: none;
+}
+
+footer ul h3 {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+footer ul li {
+    padding-top: 20px;
+}
+
+footer ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer ul li a:hover {
+    color: #d297e2;
+}
+
+footer p {
+    text-align: center;
+    text-decoration: #140112;
+    margin: 0;
+    padding: 5px;
+}

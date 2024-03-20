@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: white;
+}
+
+/* header settings */
+header {
+    width: 100%;
+    height: 100px;
+}
+
+.topnav {
+    background-color:#731d52;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+
+}
+
+.topnav img {
+    width: 15%;
+    text-align: center;
+    padding-top: 0;
+}
+
+.contact {
+    font-size: medium;
+    font-weight: 400;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 0;
+    border: 1px solid rgb(134, 39, 130);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=email],select,textarea {
+    width: 100%;
+    padding: 12px 0;
+    border: 1px solid rgb(134, 39, 130);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #500d36;
+    color: white;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #db99d5;
+}
+
+.contaact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.one {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.two {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clearing floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.phone {
+    padding: 12px;
+    display: inline-block;
+}
+.phone a {
+    padding: 0 20px;
+}
+footer {
+    margin: 0%;
+    background-color: #500d36;
+    text-align: left;
+  }
+  
+  footer ul {
+    display: inline-block;
+    list-style: none;
+  }
+  
+  footer ul h3 {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 10px;
+  }
+  
+  footer ul li {
+    padding-top: 20px;
+  }
+  
+  footer ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  footer ul li a:hover {
+    color: #d297e2;
+  }
+  
+  footer p {
+    text-align: center;
+    text-decoration: #140112;
+    margin: 0;
+    padding: 5px;
+  }
+

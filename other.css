@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color:  #dcabc4;
+  }
+  
+  /* header settings */
+  header {
+    width: 100%;
+    height: 100px;
+  }
+  a {
+    color: #9a7ea1;
+    font-weight: 300;
+  }
+  .topnav {
+    background-color:#731d52;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+  
+  }
+  
+  .topnav img {
+    width: 15%;
+    text-align: center;
+  }
+  div.rating {
+    margin: 20px;
+    color: #ffffff;
+   
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+   font-weight: 500;
+   font-size: xx-large;
+   color: #000;
+   padding-left: 20px;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+   font-weight: 500;
+    width: 90%;
+    padding: 10px 5px 10px 0px;
+     margin-left: 20px;
+    margin-bottom: 10px;
+    }
+
+  textarea {
+    height: 250px;
+  }
+  
+  button {
+    height: 50px;
+    background: rgb(56, 13, 31);
+    color: white;
+    font-size: large;
+
+    border-radius: 4px;
+  
+    padding: 0 12px;
+   margin: 0 650px;
+  }
+  
+  button:hover {
+    background: #333;
+  }
+
+
+  .prefernece {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+   
+  }
+
+  .prefernece input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    margin-left: 20px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .prefernece input:checked ~ .checkmark:after {
+    display: block;
+  } 
+   
+ 
+  .prefernece .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+  }
+  .finish h3 {
+    text-align: center;
+  }
+  footer {
+    margin-top: 40px;
+
+    background-color:  #500d36;
+    text-align: left;
+}
+
+footer ul {
+    display: inline-block;
+    list-style: none;
+}
+
+footer ul h3 {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+footer ul li {
+    padding-top: 20px;
+}
+
+footer ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer ul li a:hover {
+    color: #d297e2;
+}
+
+footer p {
+    text-align: center;
+    text-decoration: #140112;
+    margin: 0;
+    padding: 5px;
+}

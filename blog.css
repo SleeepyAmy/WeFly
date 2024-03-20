@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: white;
+}
+
+/* header settings */
+header {
+    width: 100%;
+    text-align: center;
+ 
+}
+header p {
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.topnav {
+    background-color:#731d52;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+
+}
+
+.topnav img {
+    width: 15%;
+    text-align: center;
+    padding-top: 0;
+}
+.video {
+    width: 100%;
+    background-color:  #81245d;
+    display: inline-block;
+    text-align: center;
+}
+
+.video h3 {
+    font-weight: 600;
+    text-align: center;
+}
+.video h4 {
+    font-weight: 600;
+    text-align: center;
+}
+
+/* .video p {
+    color: #000000;
+    font-weight: 500;
+    padding: 10px 0;
+
+} */
+
+.video iframe {
+    width: 600px;
+    height: 400px;
+}
+.story {
+    margin-top: 40px;
+    background-color:  #81245d;
+    box-shadow: black;
+    width:100%;
+    text-align: center;
+   padding: 12px 0;
+}
+.story h1 {
+    background-color: #d297e2;
+}
+
+  .story p {
+    color: #000000;
+    font-weight: 500;
+     text-align: center;
+    
+  }
+  .more {
+    margin-top: 40px;
+    width: 100%;
+    background-color:  #81245d;
+    display: inline-block;
+    text-align: center;
+    padding: 12px 0;
+}
+
+
+.more h3 {
+    font-weight: 600;
+    text-align: center;
+}
+.more h4 {
+    font-weight: 600;
+    text-align: center;
+}
+
+/* .video p {
+    color: #000000;
+    font-weight: 500;
+    padding: 10px 0;
+
+} */
+
+.more iframe {
+    width: 600px;
+    height: 400px;
+}
+  
+footer {
+    margin-top: 40px;
+
+    background-color:  #500d36;
+    text-align: left;
+}
+
+footer ul {
+    display: inline-block;
+    list-style: none;
+}
+
+footer ul h3 {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+footer ul li {
+    padding-top: 20px;
+}
+
+footer ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer ul li a:hover {
+    color: #d297e2;
+}
+
+footer p {
+    text-align: center;
+    text-decoration: #140112;
+    margin: 0;
+    padding: 5px;
+}
+
